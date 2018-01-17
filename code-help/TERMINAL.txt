@@ -1,0 +1,16 @@
+/***
+ * v1.0.0.0
+ */
+
+// activate hidden admin
+net user administrator /active:yes
+
+// composer
+Computer/(jobb klikk) Properties/Advenced system settings/Environment Variables.../System variables/PATH - Edit... -> ctrl C+V projekt mappája ";C:\xampp\htdocs\myproject\;"
+Restart gép
+ctrl C+V composer.phar projekt mappájába
+cmd:
+cd projekt mappájába
+php composer.phar self-update
+php composer.phar install
+

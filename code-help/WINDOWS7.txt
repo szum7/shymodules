@@ -1,0 +1,6 @@
+/***
+ * v1.0.0.0
+ */
+
+// manage programs starting with windows
+msconfig.exe (system configuration)

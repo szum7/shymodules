@@ -1,0 +1,52 @@
+/***
+ * v1.0.0.0
+ */
+
+/*
+ * Unselectable
+ */
+.uns{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*
+ * Click through
+ */
+.trans{	pointer-events: none; }
+
+/*
+ * Animation
+ */
+ul li{
+	transition: all 0.5s ease-in-out 0s;
+}
+ul li:hover{
+	transition: all 0.2s ease-in-out 0s;
+}
+
+/*
+ * Before
+ */
+ul li::before{
+    content:"";
+    background-repeat:no-repeat;
+    background-image:url("../images/icons/back.png");
+    width: 10px; height:10px;
+    text-indent:15px;
+    position: absolute;
+    bottom:1px; left:-25px;
+}
+
+/*
+ * ... after text
+ */
+section.stat ul li.jollyblock p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 120px;
+}

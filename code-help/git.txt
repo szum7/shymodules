@@ -1,0 +1,19 @@
+/***
+ * v1.0.0.0
+ */
+
+{$}
+
+## usefule commands
+git log
+
+git config --global user.name "Szõcs Áron"
+git config --global user.email "szocs.aa@gmail.com"
+
+
+
+# copy ssh key
+clip < ~/.ssh/id_rsa.pub
+
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+Account/Settings/SSH and GPG keys/Add SSH key
